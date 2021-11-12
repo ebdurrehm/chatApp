@@ -1,7 +1,7 @@
 /*!
  * Socket.IO v4.3.2
  * (c) 2014-2021 Guillermo Rauch
- * Released under the MIT License.
+ * Released under the MIT License
  */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :

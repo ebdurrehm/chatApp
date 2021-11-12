@@ -28,7 +28,7 @@ io.on('connection', function(socket){
   
      socket.send(JSON.stringify({
       type: "serverMsg",
-      message: "Welcome to my site"
+      message: "Welcome to my site!"
     }))
   })
 
