@@ -5,7 +5,7 @@ var app = express();
 var socket = require('socket.io')
 
 
-
+app.set('port', process.env.PORT||4000);
 
 
 app.use(express.static(__dirname+'/assets'));
@@ -15,7 +15,12 @@ app.get('/', (req,res)=>{
 })
 
 
-var server = app.listen(4000, function(){
+app.use(function(req, res){
+  res.type('text/plain');
+  res.status(404);
+  res.send('404 - Not Found');
+ });
+var server = app.listen(app.get('port'), function(){
     console.log('listening for requests on port 4000,');
 });
 

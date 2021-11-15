@@ -11,5 +11,8 @@
     "app"
   ],
   "author": "Abdurrahim Ahmadov",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
