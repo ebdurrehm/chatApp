@@ -3,7 +3,7 @@ This is dynmic chat app is developing for my personal site. I am currently learn
 
 # TODO
 <ul>
-<li<create chat interface</li>
+<li>create chat interface</li>
 <li>create backend soluition for the chat app</li>
 <li>integrate this app to the blog app</li>
   </ul>
