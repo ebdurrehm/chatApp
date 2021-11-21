@@ -2,7 +2,8 @@
 This is dynmic chat app is developing for my personal site. I am currently learning socket.io and trying to apply all new skills I learned.
 
 # TODO
-
--create chat interface
--create backend soluition for the chat app
--integrate this app to the blog app
+<ul>
+<li<create chat interface</li>
+<li>create backend soluition for the chat app</li>
+<li>integrate this app to the blog app</li>
+  </ul>
