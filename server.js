@@ -61,7 +61,7 @@ myDB(async (client) => {
     req.logout();
     res.redirect('/');
   })
-
+//user registration route
 app.route('/register').post((req,res,next)=>{
   myDataBase.findOne({username: req.body.username}, (err, user)=>{
     if(err){next(err)}
