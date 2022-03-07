@@ -33,7 +33,6 @@ myDB(async (client) => {
    router(app, myDataBase);
    auth(app,myDataBase);
       
-
   // Be sure to add this...
 }).catch((e) => {
   app.route('/').get((req, res) => {
